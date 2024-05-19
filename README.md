@@ -1,30 +1,63 @@
-Senaryo:
-Araştırıcı Şirketten Bir E-Mail:
 
-Sevgili Vinny & Julia,
+# Women Tech Women Yes - Exploratory Data Analysis (EDA) Project
 
-Yeni tanıştığımız ve güzel sohbet ettiğimiz etkinlikte sizlerle tanışmak ve sohbet etmek çok güzeldi. Birlikte çalışmanın her iki taraf için de anlamlı olup olmadığını görmek için sonraki adımları beraber atmayı çok isteriz.
+This project, titled "Women Tech Women Yes," aims to explore and analyze data related to women's involvement and representation in the tech industry. The project focuses on identifying trends, patterns, and insights that can help understand the current state and challenges faced by women in technology.
 
-Bahsettiğimiz gibi, bağış toplama çabalarımızın önemli bir bölümünü oluşturan sokak ekip çalışmasının etkinliğini optimize etmek için veri ve analitiklerin gücünden yararlanmak istiyoruz.
+## Contents
 
-WomenTechWomenYes (WTWY) derneğimiz her yıl yaz mevsiminin başında yıllık bir gala düzenliyor. Yeni ve kapsayıcı bir kuruluş olduğumuz için gala ile hem etkinlik alanımızı kadınların teknolojiye katılımını artırma konusunda tutkulu bireylerle doldurmak hem de aynı anda farkındalık ve erişim oluşturmak için gala ile çifte görev yapmaya çalışıyoruz.
+- [About the Project](#about-the-project)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 
-Bu amaçla metro istasyonlarının girişlerine sokak ekipleri yerleştiriyoruz. Sokak ekipleri ulaşabildikleri kişilerin e-posta adreslerini topluyor ve kayıt olanlara galamıza ücretsiz bilet gönderiyor.
+## About the Project
 
-Sizden yardım talep etmek istediğimiz yer ise, sokak ekiplerimizin yerleşimini optimize etmemize yardımcı olması için, şehirden ücretsiz olarak temin edilebildiğini bildiğinizden emin olduğum MTA metro verilerini kullanmak, böylece galaya katılabilecek ve amacımıza katkıda bulunabilecek en fazla kişiye ulaşabiliriz.
+"Women Tech Women Yes" is an EDA project that seeks to shed light on the participation and progress of women in the tech sector. By examining various datasets, the project aims to uncover key insights, highlight disparities, and suggest potential areas for improvement and action.
 
-Top şimdi sizin sahanızda, en yakın zamanda yapacağınız çalışmanın sonuçlarını merakla bekliyor olacağız.
+## Features
 
-Sevgiler...
+- **Data Collection:** Gathering data from multiple sources related to women in tech.
+- **Data Cleaning:** Processing and cleaning the data to ensure accuracy and consistency.
+- **Exploratory Analysis:** Using various statistical and visualization techniques to explore the data.
+- **Insight Generation:** Identifying key trends, patterns, and insights from the data.
+- **Reporting:** Creating visualizations and summaries to effectively communicate findings.
 
-Karrine & Dahlia
+## Installation
 
-WTWY Uluslararası
+To run the project on your local machine, follow these steps:
 
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/username/women-tech-women-yes.git
+    cd women-tech-women-yes
+    ```
 
-Araçlar:
-Veri analizi ve düzenlemeleri için python, numpy ve pandas
-Veri görselleştirmeleri için matplotlib ve seaborn
+2. **Install Required Libraries:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Analiz:
-Keşifsel Veri Analizi (EDA)
+## Usage
+
+After installing the required libraries, you can explore the data and generate insights using the provided Jupyter notebooks and scripts. To start the Jupyter notebook, use the following command:
+
+```bash
+jupyter notebook
+```
+
+Open the `eda.ipynb` notebook to begin exploring the data.
+
+## Project Structure
+
+```
+women-tech-women-yes/
+├── data/
+│   └── women_in_tech_data.csv   # Dataset used for analysis
+├── notebooks/
+│   └── eda.ipynb                # Jupyter notebook for exploratory data analysis
+├── src/
+│   ├── data_cleaning.py         # Data cleaning scripts
+│   └── analysis.py              # Analysis scripts
+├── visuals/
+│   └── charts/                  # Generated charts and visualizations
